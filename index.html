@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>The Software Philosopher</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla:wght@400;700&family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+
+<style>
+  @import url('https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css');
+
+  /* Theme */
+
+  html {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+  }
+
+  a {
+    color: #005aff;
+  }
+
+  /* Spacing */
+
+  :is(h1, h2, h3, h4, hr, p, ul, ol, table, details, summary, form):not(:first-child) {
+    margin-top: 1em;
+  }
+
+  section {
+    padding: 1em 0;
+  }
+
+  footer {
+    margin-top: 2em;
+  }
+
+  footer section {
+    display: grid;
+    gap: 0.5em;
+    justify-items: center;
+  }
+
+  footer p {
+    opacity: 0.4;
+    font-size: 80%;
+  }
+</style>
+
+<link rel='stylesheet' href='./style/heroimage.css'>
+
+<main>
+  <header class='hero-image' style='background-image: url(./imgs/home.jpg)' }>
+    <div>
+      <h1>The Software Philosopher</h1>
+      <p>From sound principles flow steady results.</p>
+    </div>
+  </header>
+</main>
+
+<footer>
+  <section>
+    <p>Copyright 2023 ©️ All rights reserved</p>
+  </section>
+</footer>

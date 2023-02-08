@@ -1,0 +1,41 @@
+.hero-image {
+  background-size: cover;
+  background-position-y: center;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-image>div {
+  position: relative;
+  padding: 7vh 0;
+  max-width: 90%;
+  margin: 0 auto;
+
+  transition: 0.8s ease;
+  transition-property: opacity, transform;
+  opacity: 1;
+}
+
+.hero-image>div {
+  display: grid;
+  justify-content: center;
+}
+
+.hero-image::before {
+  background: linear-gradient(-45deg, #182c55 0%, #464a5a 100%);
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .8;
+  z-index: 0;
+}
+
+.hero-image>div>* {
+  margin: 0.25em 0 !important;
+  font-weight: 400 !important;
+}
